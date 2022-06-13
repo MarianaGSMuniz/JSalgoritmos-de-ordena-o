@@ -8,4 +8,6 @@ for (let atual = 0; atual < livros.length; atual++) {
 
     let livroMenorPreco = livros[menor];
 
+    livros[atual] = livroMenorPreco
+    livros[menor] = livroAtual
 }
