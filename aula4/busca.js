@@ -10,13 +10,10 @@ function busca(array, de, ate, valorBuscado) {
 
     if (valorBuscado === atual.preco) {
         return meio;
-
     }
 
     if (valorBuscado < atual.preco) {
         return busca(array, de, meio - 1, valorBuscado);
-
-
     }
 
     if (valorBuscado > atual.preco) {
